@@ -1,0 +1,11 @@
+--- a/setup.py	2014-09-13 20:33:04.000000000 +0200
++++ b/setup.py	2014-11-10 09:13:38.721497112 +0100
+@@ -20,7 +20,7 @@
+ SOFTWARE.
+ """
+ 
+-from distutils.core import setup, Extension
++from setuptools import setup, Extension
+ 
+ classifiers = ['Development Status :: 5 - Production/Stable',
+                'Operating System :: POSIX :: Linux',
